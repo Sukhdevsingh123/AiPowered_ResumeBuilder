@@ -40,7 +40,7 @@ Welcome to **CVault** - an innovative AI-driven resume builder that leverages th
 1. Clone the repository:
    ```bash
    git clone https://github.com/Sukhdevsingh123/AiPowered_ResumeBuilder
-   cd cvault
+   cd AiPowered_ResumeBuilder
    ```
 2. Install dependencies:
    ```bash
