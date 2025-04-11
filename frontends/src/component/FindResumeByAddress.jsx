@@ -145,7 +145,7 @@ const FindResumeByAddress = ({ walletAddress, contract }) => {
             type="text"
             value={userAddress}
             onChange={(e) => setUserAddress(e.target.value)}
-            placeholder="Enter User Address (e.g., 0x...)"
+            placeholder="Enter User wallet Address (e.g., 0x...)"
             className="w-full px-6 py-3 rounded-lg bg-white text-gray-800 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 shadow-sm transition-all duration-300 placeholder-gray-500"
           />
           <button
@@ -363,7 +363,7 @@ const FindResumeByAddress = ({ walletAddress, contract }) => {
         ) : (
           !error && (
             <p className="text-center text-gray-600 text-sm">
-              Enter a user address to find their resume.
+              Enter a user wallet address to find their resume.
             </p>
           )
         )}
